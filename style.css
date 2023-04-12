@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  overflow-x: scroll;
+}
+
+mine {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-width: 3px;
+  border-style: outset;
+  border-color: black;
+  text-align: center;
+  font-size: 25px;
+}
+line {
+  height: 36px;
+  display: block;
+}
+mine.hidden {
+  background-color: lightgrey;
+}
+.flag {
+  background-color: red !important;
+}
+
+div {
+  margin: auto;
+}
+
+#endgame {
+  display: none;
+}
+
+#img {
+  position: sticky;
+  bottom: 0px;
+  left: 0;
+  background-color: #5c5c5c;
+  width: 100dvw;
+  overflow-x: scroll;
+}
+#field {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+#replayButton {
+  margin-top: 10px;
+}
