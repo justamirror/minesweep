@@ -4,7 +4,7 @@ Math.sum = function (...args) {
     i += number;
   }
   return i;
-}
+} //bhj
 function random(b,e) {
   if (b>e) {
     let ob = b;
